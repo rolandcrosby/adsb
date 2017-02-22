@@ -1,0 +1,36 @@
+{
+    "name": "elm-adsb-thing",
+    "version": "0.0.1",
+    "description": "node plus elm thing",
+    "main": "server.js",
+    "files": [
+        "server.js",
+        "elm-package.json",
+        "ADSB.elm",
+        "ADSBApp.elm"
+    ],
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.14.1",
+        "request": "^2.79.0",
+        "body-parser": "^1.16.1",
+        "node-elm-compiler": "^4.3.0"
+    },
+    "devDependencies": {
+        "elm": "^0.18.0"
+    },
+    "engines": {
+        "node": "6.9.x"
+    },
+    "repository": {
+        "url": "https://gomix.com/#!/project/welcome-project"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "gomix",
+        "express"
+    ]
+}

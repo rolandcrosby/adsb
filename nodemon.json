@@ -1,0 +1,4 @@
+{
+  "ext": "*.js,*.elm",
+  "ignore": ["elm-stuff/*", "index.html"]
+}
