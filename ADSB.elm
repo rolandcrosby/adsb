@@ -138,8 +138,8 @@ updatePlaneList params icaos =
             responseDecoder
 
 
-updateForLatLong : Float -> Float -> String -> List String -> Http.Request Response
-updateForLatLong lat lng lastDv icaos =
+updateForLatLong : (Float, Float) -> String -> List String -> Http.Request Response
+updateForLatLong (lat, lng) lastDv icaos =
     updatePlaneList
         [ ( "lat", toString lat )
         , ( "lng", toString lng )
